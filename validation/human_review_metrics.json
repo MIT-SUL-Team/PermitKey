@@ -1,0 +1,1227 @@
+{
+  "permit_groups": 1249,
+  "known_cells": 6295,
+  "positive_labels": 1015,
+  "rows": [
+    {
+      "category": "SOLAR_PV",
+      "evaluated_n": 451,
+      "support": 147,
+      "predicted_positive": 148,
+      "tp": 122,
+      "fp": 26,
+      "fn": 25,
+      "tn": 278,
+      "precision": 0.8243243243243243,
+      "precision_ci": {
+        "low": 0.7635135135135135,
+        "high": 0.8811188811188811,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.8299319727891157,
+      "recall_ci": {
+        "low": 0.7692307692307693,
+        "high": 0.8866666666666667,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.8271186440677966,
+      "f1_ci": {
+        "low": 0.7801418439716312,
+        "high": 0.8698412698412699,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.8869179600886918,
+      "accuracy_ci": {
+        "low": 0.858426469125982,
+        "high": 0.9138655462184874,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.872202828499821,
+      "balanced_accuracy_ci": {
+        "low": 0.838600768886611,
+        "high": 0.9044942273317301,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "EV_CHARGER",
+      "evaluated_n": 454,
+      "support": 72,
+      "predicted_positive": 52,
+      "tp": 50,
+      "fp": 2,
+      "fn": 22,
+      "tn": 380,
+      "precision": 0.9615384615384616,
+      "precision_ci": {
+        "low": 0.9019607843137255,
+        "high": 1.0,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.6944444444444444,
+      "recall_ci": {
+        "low": 0.5857142857142857,
+        "high": 0.8,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.8064516129032258,
+      "f1_ci": {
+        "low": 0.7241379310344828,
+        "high": 0.8769230769230769,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.947136563876652,
+      "accuracy_ci": {
+        "low": 0.9271937972403818,
+        "high": 0.9652173913043478,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.8446044211751018,
+      "balanced_accuracy_ci": {
+        "low": 0.7903184963121637,
+        "high": 0.8974228460498768,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "BATTERY_STORAGE",
+      "evaluated_n": 453,
+      "support": 14,
+      "predicted_positive": 39,
+      "tp": 11,
+      "fp": 28,
+      "fn": 3,
+      "tn": 411,
+      "precision": 0.28205128205128205,
+      "precision_ci": {
+        "low": 0.15151515151515152,
+        "high": 0.425,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.7857142857142857,
+      "recall_ci": {
+        "low": 0.5555555555555556,
+        "high": 1.0,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.41509433962264153,
+      "f1_ci": {
+        "low": 0.24489795918367346,
+        "high": 0.5671641791044776,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9315673289183223,
+      "accuracy_ci": {
+        "low": 0.9115646258503401,
+        "high": 0.9507494646680942,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.8609664822648877,
+      "balanced_accuracy_ci": {
+        "low": 0.7435567588823407,
+        "high": 0.9682357609710551,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "HEAT_PUMP",
+      "evaluated_n": 184,
+      "support": 70,
+      "predicted_positive": 72,
+      "tp": 60,
+      "fp": 12,
+      "fn": 10,
+      "tn": 102,
+      "precision": 0.8333333333333334,
+      "precision_ci": {
+        "low": 0.7402597402597403,
+        "high": 0.9142857142857143,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.8571428571428571,
+      "recall_ci": {
+        "low": 0.7741935483870968,
+        "high": 0.9354838709677419,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.8450704225352113,
+      "f1_ci": {
+        "low": 0.7761194029850746,
+        "high": 0.9037037037037037,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.8804347826086957,
+      "accuracy_ci": {
+        "low": 0.8315789473684211,
+        "high": 0.923469387755102,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.8759398496240601,
+      "balanced_accuracy_ci": {
+        "low": 0.824532323226761,
+        "high": 0.9229700964922928,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "ELECTRICAL_PANEL_UPGRADE",
+      "evaluated_n": 452,
+      "support": 71,
+      "predicted_positive": 65,
+      "tp": 42,
+      "fp": 23,
+      "fn": 29,
+      "tn": 358,
+      "precision": 0.6461538461538462,
+      "precision_ci": {
+        "low": 0.5277777777777778,
+        "high": 0.7605633802816901,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.5915492957746479,
+      "recall_ci": {
+        "low": 0.474570838765754,
+        "high": 0.7073170731707317,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.6176470588235294,
+      "f1_ci": {
+        "low": 0.515625,
+        "high": 0.7101449275362319,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.8849557522123894,
+      "accuracy_ci": {
+        "low": 0.8580645161290322,
+        "high": 0.910961504174962,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.7655909208532032,
+      "balanced_accuracy_ci": {
+        "low": 0.7055554203180785,
+        "high": 0.8248435280791697,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "ROOFING",
+      "evaluated_n": 258,
+      "support": 40,
+      "predicted_positive": 32,
+      "tp": 30,
+      "fp": 2,
+      "fn": 10,
+      "tn": 216,
+      "precision": 0.9375,
+      "precision_ci": {
+        "low": 0.84375,
+        "high": 1.0,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.75,
+      "recall_ci": {
+        "low": 0.6046511627906976,
+        "high": 0.8787878787878788,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.8333333333333334,
+      "f1_ci": {
+        "low": 0.7241379310344828,
+        "high": 0.9180327868852459,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9534883720930233,
+      "accuracy_ci": {
+        "low": 0.9256198347107438,
+        "high": 0.9769252873563218,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.8704128440366973,
+      "balanced_accuracy_ci": {
+        "low": 0.7973208252895753,
+        "high": 0.9354771825396825,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "POOL_SPA",
+      "evaluated_n": 203,
+      "support": 52,
+      "predicted_positive": 67,
+      "tp": 52,
+      "fp": 15,
+      "fn": 0,
+      "tn": 136,
+      "precision": 0.7761194029850746,
+      "precision_ci": {
+        "low": 0.676056338028169,
+        "high": 0.8714285714285714,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 1.0,
+      "recall_ci": {
+        "low": null,
+        "high": null,
+        "status": "degenerate_not_informative",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.8739495798319328,
+      "f1_ci": {
+        "low": 0.8067226890756303,
+        "high": 0.9312977099236641,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9261083743842364,
+      "accuracy_ci": {
+        "low": 0.8888888888888888,
+        "high": 0.9587664171727157,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.9503311258278146,
+      "balanced_accuracy_ci": {
+        "low": 0.926923076923077,
+        "high": 0.9716312056737588,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "DEMOLITION",
+      "evaluated_n": 231,
+      "support": 15,
+      "predicted_positive": 19,
+      "tp": 13,
+      "fp": 6,
+      "fn": 2,
+      "tn": 210,
+      "precision": 0.6842105263157895,
+      "precision_ci": {
+        "low": 0.46153846153846156,
+        "high": 0.8947368421052632,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.8666666666666667,
+      "recall_ci": {
+        "low": 0.6666666666666666,
+        "high": 1.0,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.7647058823529411,
+      "f1_ci": {
+        "low": 0.5714285714285714,
+        "high": 0.9090909090909091,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9653679653679653,
+      "accuracy_ci": {
+        "low": 0.9400921658986175,
+        "high": 0.987012987012987,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.9194444444444445,
+      "balanced_accuracy_ci": {
+        "low": 0.8193129963582115,
+        "high": 0.990909090909091,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "WATER_HEATER",
+      "evaluated_n": 122,
+      "support": 22,
+      "predicted_positive": 11,
+      "tp": 9,
+      "fp": 2,
+      "fn": 13,
+      "tn": 98,
+      "precision": 0.8181818181818182,
+      "precision_ci": {
+        "low": 0.5555555555555556,
+        "high": 1.0,
+        "status": "estimated",
+        "estimable_fraction": 0.9999
+      },
+      "recall": 0.4090909090909091,
+      "recall_ci": {
+        "low": 0.2,
+        "high": 0.625,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.5454545454545454,
+      "f1_ci": {
+        "low": 0.30303030303030304,
+        "high": 0.7333333333333333,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.8770491803278688,
+      "accuracy_ci": {
+        "low": 0.816,
+        "high": 0.9316239316239316,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.6945454545454546,
+      "balanced_accuracy_ci": {
+        "low": 0.588789041599786,
+        "high": 0.8033339731031925,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "FIRE_PROTECTION",
+      "evaluated_n": 95,
+      "support": 42,
+      "predicted_positive": 33,
+      "tp": 28,
+      "fp": 5,
+      "fn": 14,
+      "tn": 48,
+      "precision": 0.8484848484848485,
+      "precision_ci": {
+        "low": 0.717948717948718,
+        "high": 0.9642857142857143,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.6666666666666666,
+      "recall_ci": {
+        "low": 0.525,
+        "high": 0.8043478260869565,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.7466666666666667,
+      "f1_ci": {
+        "low": 0.6268656716417911,
+        "high": 0.846176470588235,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.8,
+      "accuracy_ci": {
+        "low": 0.7191011235955056,
+        "high": 0.8762915556585196,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.7861635220125787,
+      "balanced_accuracy_ci": {
+        "low": 0.7036337308202634,
+        "high": 0.8646158772425694,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "WINDOW_DOOR",
+      "evaluated_n": 258,
+      "support": 41,
+      "predicted_positive": 40,
+      "tp": 32,
+      "fp": 8,
+      "fn": 9,
+      "tn": 209,
+      "precision": 0.8,
+      "precision_ci": {
+        "low": 0.6666666666666666,
+        "high": 0.918918918918919,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.7804878048780488,
+      "recall_ci": {
+        "low": 0.644404761904762,
+        "high": 0.9047619047619048,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.7901234567901234,
+      "f1_ci": {
+        "low": 0.6829124820659972,
+        "high": 0.88,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9341085271317829,
+      "accuracy_ci": {
+        "low": 0.9020404715940431,
+        "high": 0.9628099173553719,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.8718107227155221,
+      "balanced_accuracy_ci": {
+        "low": 0.8021325873806372,
+        "high": 0.933717196808949,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "FENCE_WALL",
+      "evaluated_n": 203,
+      "support": 28,
+      "predicted_positive": 24,
+      "tp": 22,
+      "fp": 2,
+      "fn": 6,
+      "tn": 173,
+      "precision": 0.9166666666666666,
+      "precision_ci": {
+        "low": 0.782608695652174,
+        "high": 1.0,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.7857142857142857,
+      "recall_ci": {
+        "low": 0.6176470588235294,
+        "high": 0.9285714285714286,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.8461538461538461,
+      "f1_ci": {
+        "low": 0.7222222222222222,
+        "high": 0.9387755102040817,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9605911330049262,
+      "accuracy_ci": {
+        "low": 0.9315789473684211,
+        "high": 0.9850746268656716,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.8871428571428571,
+      "balanced_accuracy_ci": {
+        "low": 0.8035714285714286,
+        "high": 0.9598188002271139,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "DECK_PATIO_PORCH",
+      "evaluated_n": 258,
+      "support": 40,
+      "predicted_positive": 34,
+      "tp": 30,
+      "fp": 4,
+      "fn": 10,
+      "tn": 214,
+      "precision": 0.8823529411764706,
+      "precision_ci": {
+        "low": 0.7619047619047619,
+        "high": 0.9743589743589743,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.75,
+      "recall_ci": {
+        "low": 0.6111111111111112,
+        "high": 0.8787878787878788,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.8108108108108109,
+      "f1_ci": {
+        "low": 0.7017543859649122,
+        "high": 0.8991055045871557,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9457364341085271,
+      "accuracy_ci": {
+        "low": 0.9169960474308301,
+        "high": 0.9718875502008032,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.8658256880733946,
+      "balanced_accuracy_ci": {
+        "low": 0.7954545454545454,
+        "high": 0.9314534493284493,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "DRIVEWAY_PAVING",
+      "evaluated_n": 203,
+      "support": 8,
+      "predicted_positive": 11,
+      "tp": 6,
+      "fp": 5,
+      "fn": 2,
+      "tn": 190,
+      "precision": 0.5454545454545454,
+      "precision_ci": {
+        "low": 0.2222222222222222,
+        "high": 0.8571428571428571,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.75,
+      "recall_ci": {
+        "low": 0.4,
+        "high": 1.0,
+        "status": "estimated",
+        "estimable_fraction": 0.9997
+      },
+      "f1": 0.631578947368421,
+      "f1_ci": {
+        "low": 0.3076923076923077,
+        "high": 0.8571428571428571,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9655172413793104,
+      "accuracy_ci": {
+        "low": 0.9381443298969072,
+        "high": 0.9893617021276596,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.8621794871794872,
+      "balanced_accuracy_ci": {
+        "low": 0.6824871794871795,
+        "high": 0.9921915479274611,
+        "status": "estimated",
+        "estimable_fraction": 0.9997
+      }
+    },
+    {
+      "category": "GRADING_SITEWORK",
+      "evaluated_n": 203,
+      "support": 12,
+      "predicted_positive": 14,
+      "tp": 6,
+      "fp": 8,
+      "fn": 6,
+      "tn": 183,
+      "precision": 0.42857142857142855,
+      "precision_ci": {
+        "low": 0.16644736842105282,
+        "high": 0.7142857142857143,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.5,
+      "recall_ci": {
+        "low": 0.2,
+        "high": 0.8,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.46153846153846156,
+      "f1_ci": {
+        "low": 0.19047619047619047,
+        "high": 0.6829268292682927,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9310344827586207,
+      "accuracy_ci": {
+        "low": 0.8944723618090452,
+        "high": 0.9636387187941592,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.7290575916230366,
+      "balanced_accuracy_ci": {
+        "low": 0.5800103668261564,
+        "high": 0.876552301452556,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "GARAGE_ACCESSORY",
+      "evaluated_n": 231,
+      "support": 19,
+      "predicted_positive": 23,
+      "tp": 13,
+      "fp": 10,
+      "fn": 6,
+      "tn": 202,
+      "precision": 0.5652173913043478,
+      "precision_ci": {
+        "low": 0.36,
+        "high": 0.7647058823529411,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.6842105263157895,
+      "recall_ci": {
+        "low": 0.4666666666666667,
+        "high": 0.8888888888888888,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.6190476190476191,
+      "f1_ci": {
+        "low": 0.42857142857142855,
+        "high": 0.7755102040816326,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9307359307359307,
+      "accuracy_ci": {
+        "low": 0.8968253968253969,
+        "high": 0.9613733905579399,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.8185203574975174,
+      "balanced_accuracy_ci": {
+        "low": 0.7098588328648964,
+        "high": 0.9223485284876414,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "SEWER_UTILITY",
+      "evaluated_n": 203,
+      "support": 16,
+      "predicted_positive": 8,
+      "tp": 7,
+      "fp": 1,
+      "fn": 9,
+      "tn": 186,
+      "precision": 0.875,
+      "precision_ci": {
+        "low": 0.6,
+        "high": 1.0,
+        "status": "estimated",
+        "estimable_fraction": 0.9997
+      },
+      "recall": 0.4375,
+      "recall_ci": {
+        "low": 0.2,
+        "high": 0.6875,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.5833333333333334,
+      "f1_ci": {
+        "low": 0.3076923076923077,
+        "high": 0.7894736842105263,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9507389162561576,
+      "accuracy_ci": {
+        "low": 0.919047619047619,
+        "high": 0.9775803542350378,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.7160762032085561,
+      "balanced_accuracy_ci": {
+        "low": 0.594817978195164,
+        "high": 0.8421052631578947,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "GAS",
+      "evaluated_n": 122,
+      "support": 25,
+      "predicted_positive": 12,
+      "tp": 11,
+      "fp": 1,
+      "fn": 14,
+      "tn": 96,
+      "precision": 0.9166666666666666,
+      "precision_ci": {
+        "low": 0.7142857142857143,
+        "high": 1.0,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.44,
+      "recall_ci": {
+        "low": 0.25,
+        "high": 0.6363636363636364,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.5945945945945946,
+      "f1_ci": {
+        "low": 0.3870967741935484,
+        "high": 0.7619047619047619,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.8770491803278688,
+      "accuracy_ci": {
+        "low": 0.8157894736842105,
+        "high": 0.9327731092436975,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.7148453608247423,
+      "balanced_accuracy_ci": {
+        "low": 0.6200960411338449,
+        "high": 0.8146842001576043,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "SIGN",
+      "evaluated_n": 258,
+      "support": 29,
+      "predicted_positive": 34,
+      "tp": 26,
+      "fp": 8,
+      "fn": 3,
+      "tn": 221,
+      "precision": 0.7647058823529411,
+      "precision_ci": {
+        "low": 0.6153846153846154,
+        "high": 0.9024390243902439,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.896551724137931,
+      "recall_ci": {
+        "low": 0.7692307692307693,
+        "high": 1.0,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.8253968253968254,
+      "f1_ci": {
+        "low": 0.7110964912280702,
+        "high": 0.9166666666666666,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9573643410852714,
+      "accuracy_ci": {
+        "low": 0.9315054684047723,
+        "high": 0.980544747081712,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.9308086131606685,
+      "balanced_accuracy_ci": {
+        "low": 0.8672415145241232,
+        "high": 0.9826086956521739,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "STRUCTURAL",
+      "evaluated_n": 231,
+      "support": 8,
+      "predicted_positive": 6,
+      "tp": 4,
+      "fp": 2,
+      "fn": 4,
+      "tn": 221,
+      "precision": 0.6666666666666666,
+      "precision_ci": {
+        "low": 0.2,
+        "high": 1.0,
+        "status": "estimated",
+        "estimable_fraction": 0.997
+      },
+      "recall": 0.5,
+      "recall_ci": {
+        "low": 0.125,
+        "high": 0.8571428571428571,
+        "status": "estimated",
+        "estimable_fraction": 0.9998
+      },
+      "f1": 0.5714285714285714,
+      "f1_ci": {
+        "low": 0.16666666666666666,
+        "high": 0.8421052631578947,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.974025974025974,
+      "accuracy_ci": {
+        "low": 0.9519611195875204,
+        "high": 0.9915611814345991,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.7455156950672646,
+      "balanced_accuracy_ci": {
+        "low": 0.5580947136563876,
+        "high": 0.9264444451599608,
+        "status": "estimated",
+        "estimable_fraction": 0.9998
+      }
+    },
+    {
+      "category": "NEW_CONSTRUCTION",
+      "evaluated_n": 231,
+      "support": 33,
+      "predicted_positive": 30,
+      "tp": 21,
+      "fp": 9,
+      "fn": 12,
+      "tn": 189,
+      "precision": 0.7,
+      "precision_ci": {
+        "low": 0.5294117647058824,
+        "high": 0.8620689655172413,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.6363636363636364,
+      "recall_ci": {
+        "low": 0.4666666666666667,
+        "high": 0.8,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.6666666666666666,
+      "f1_ci": {
+        "low": 0.5151515151515151,
+        "high": 0.7887323943661971,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9090909090909091,
+      "accuracy_ci": {
+        "low": 0.8706896551724138,
+        "high": 0.9437229437229437,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.7954545454545454,
+      "balanced_accuracy_ci": {
+        "low": 0.7094443734471403,
+        "high": 0.8787111202877487,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "ALTERATION_REMODEL",
+      "evaluated_n": 231,
+      "support": 76,
+      "predicted_positive": 75,
+      "tp": 58,
+      "fp": 17,
+      "fn": 18,
+      "tn": 138,
+      "precision": 0.7733333333333333,
+      "precision_ci": {
+        "low": 0.6746987951807228,
+        "high": 0.8627518130539886,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.7631578947368421,
+      "recall_ci": {
+        "low": 0.6666666666666666,
+        "high": 0.8571428571428571,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.7682119205298014,
+      "f1_ci": {
+        "low": 0.6885245901639344,
+        "high": 0.8375,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.8484848484848485,
+      "accuracy_ci": {
+        "low": 0.8020280046102161,
+        "high": 0.8930232558139535,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.8267402376910018,
+      "balanced_accuracy_ci": {
+        "low": 0.7724149436090226,
+        "high": 0.8784681562496284,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "ELECTRICAL",
+      "evaluated_n": 454,
+      "support": 59,
+      "predicted_positive": 79,
+      "tp": 41,
+      "fp": 38,
+      "fn": 18,
+      "tn": 357,
+      "precision": 0.5189873417721519,
+      "precision_ci": {
+        "low": 0.41025641025641024,
+        "high": 0.6265060240963856,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.6949152542372882,
+      "recall_ci": {
+        "low": 0.5769230769230769,
+        "high": 0.8035714285714286,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.5942028985507246,
+      "f1_ci": {
+        "low": 0.4925373134328358,
+        "high": 0.6845692296469215,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.8766519823788547,
+      "accuracy_ci": {
+        "low": 0.8468266679081894,
+        "high": 0.9047619047619048,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.7993563612958593,
+      "balanced_accuracy_ci": {
+        "low": 0.7391945414715165,
+        "high": 0.8563967240666153,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "PLUMBING",
+      "evaluated_n": 122,
+      "support": 22,
+      "predicted_positive": 36,
+      "tp": 19,
+      "fp": 17,
+      "fn": 3,
+      "tn": 83,
+      "precision": 0.5277777777777778,
+      "precision_ci": {
+        "low": 0.3589622641509434,
+        "high": 0.6923076923076923,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.8636363636363636,
+      "recall_ci": {
+        "low": 0.7058823529411765,
+        "high": 1.0,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.6551724137931034,
+      "f1_ci": {
+        "low": 0.49056603773584906,
+        "high": 0.7857142857142857,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.8360655737704918,
+      "accuracy_ci": {
+        "low": 0.7669902912621359,
+        "high": 0.8991596638655462,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.8468181818181818,
+      "balanced_accuracy_ci": {
+        "low": 0.7592018943635684,
+        "high": 0.9201644100580271,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "MECHANICAL_HVAC",
+      "evaluated_n": 184,
+      "support": 54,
+      "predicted_positive": 55,
+      "tp": 37,
+      "fp": 18,
+      "fn": 17,
+      "tn": 112,
+      "precision": 0.6727272727272727,
+      "precision_ci": {
+        "low": 0.5454545454545454,
+        "high": 0.7931034482758621,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.6851851851851852,
+      "recall_ci": {
+        "low": 0.5588064295485636,
+        "high": 0.8035714285714286,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.6788990825688074,
+      "f1_ci": {
+        "low": 0.5688073394495413,
+        "high": 0.7692307692307693,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.8097826086956522,
+      "accuracy_ci": {
+        "low": 0.7512373096446701,
+        "high": 0.8626373626373627,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.7733618233618234,
+      "balanced_accuracy_ci": {
+        "low": 0.7022295234388515,
+        "high": 0.8384251410878587,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "MICRO",
+      "evaluated_n": 6295,
+      "support": 1015,
+      "predicted_positive": 1019,
+      "tp": 750,
+      "fp": 269,
+      "fn": 265,
+      "tn": 5011,
+      "precision": 0.7360157016683022,
+      "precision_ci": {
+        "low": 0.7090725507633022,
+        "high": 0.7626463007971437,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "recall": 0.7389162561576355,
+      "recall_ci": {
+        "low": 0.7115768463073853,
+        "high": 0.7655042101042502,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "f1": 0.7374631268436578,
+      "f1_ci": {
+        "low": 0.7121650481071846,
+        "high": 0.7620467338803799,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy": 0.9151707704527403,
+      "accuracy_ci": {
+        "low": 0.9065883866147711,
+        "high": 0.923324335247479,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy": 0.8439846432303328,
+      "balanced_accuracy_ci": {
+        "low": 0.8285976017374398,
+        "high": 0.8589261689689164,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      }
+    },
+    {
+      "category": "MACRO",
+      "evaluated_n": null,
+      "support": null,
+      "predicted_positive": null,
+      "tp": null,
+      "fp": null,
+      "fn": null,
+      "tn": null,
+      "precision_classes": 25,
+      "precision": 0.7266410303135619,
+      "precision_ci": {
+        "low": 0.690590340291646,
+        "high": 0.7616188938354584,
+        "status": "estimated",
+        "estimable_fraction": 0.9966
+      },
+      "recall_classes": 25,
+      "recall": 0.7047571909397986,
+      "recall_ci": {
+        "low": 0.6684844860605681,
+        "high": 0.7407217729504623,
+        "status": "estimated",
+        "estimable_fraction": 0.9995
+      },
+      "f1_classes": 25,
+      "f1": 0.6949060613665413,
+      "f1_ci": {
+        "low": 0.6559548258260353,
+        "high": 0.7228472679007379,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "accuracy_classes": 25,
+      "accuracy": 0.9104001745245189,
+      "accuracy_ci": {
+        "low": 0.900237521845218,
+        "high": 0.920043629028321,
+        "status": "estimated",
+        "estimable_fraction": 1.0
+      },
+      "balanced_accuracy_classes": 25,
+      "balanced_accuracy": 0.824948624775941,
+      "balanced_accuracy_ci": {
+        "low": 0.8052581057368555,
+        "high": 0.844409836895627,
+        "status": "estimated",
+        "estimable_fraction": 0.9995
+      }
+    }
+  ]
+}

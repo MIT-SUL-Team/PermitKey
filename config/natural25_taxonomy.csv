@@ -1,0 +1,26 @@
+label,parent_family,level,definition,include_examples,exclude_examples
+EV_CHARGER,ELECTRICAL,leaf,Installation or material alteration of electric vehicle charging equipment,EVSE; Level 2 charger; vehicle charging station,Parking electrical work without charging equipment
+BATTERY_STORAGE,ELECTRICAL,leaf,Stationary electrical energy storage equipment,Battery energy storage system; ESS; Powerwall,Ordinary batteries in alarms or vehicles
+SOLAR_PV,ELECTRICAL,leaf,Photovoltaic solar electric generation equipment,PV modules; photovoltaic array; solar electric,Solar thermal only; generic electrical permit
+GAS,PLUMBING,leaf,Fuel gas piping meters or gas-fired equipment connections,Gas piping; gas meter; fuel gas,Water piping; gasoline storage
+SIGN,EXTERIOR,leaf,Installation alteration or removal of signs and associated sign structures,Wall sign; monument sign; illuminated sign,Traffic signs; contract signatures
+ALTERATION_REMODEL,BUILDING,leaf,Alteration renovation or remodel of an existing building,Interior renovation; tenant alteration,New standalone building with no alteration scope
+ROOFING,EXTERIOR,leaf,Roof covering replacement repair or new roof work,Reroof; shingles; membrane roof,Roof-mounted equipment with no roofing scope
+WATER_HEATER,PLUMBING,leaf,Installation or replacement of water-heating equipment,Water heater; tankless heater; heat-pump water heater,Space-heating boiler without domestic hot water scope
+WINDOW_DOOR,EXTERIOR,leaf,Installation replacement or alteration of windows doors or glazing,Window replacement; storefront glazing; exterior door,Framing with no window door or glazing work
+FENCE_WALL,SITEWORK,leaf,Construction alteration or replacement of fences or freestanding walls,Fence; retaining wall; masonry wall,Interior partition wall
+HEAT_PUMP,MECHANICAL_HVAC,leaf,Installation or replacement of heat-pump equipment,Air-source heat pump; mini-split heat pump,Generic HVAC; heat-pump water heater when only domestic water heating
+PLUMBING,PLUMBING,family,General plumbing fixtures water supply drainage or piping work,Plumbing permit; fixtures; water piping,Fuel gas only; sewer utility main only
+NEW_CONSTRUCTION,BUILDING,leaf,Construction of a new principal building or structure,New building; new residence,Addition or accessory structure only
+DEMOLITION,BUILDING,leaf,Full or partial demolition of a building structure or interior,Total demolition; selective demolition,Removal of one fixture with no demolition scope
+MECHANICAL_HVAC,MECHANICAL_HVAC,family,General mechanical heating ventilation cooling or refrigeration work,HVAC; air conditioning; ductwork,Heat pump when the narrower label is supported
+FIRE_PROTECTION,LIFE_SAFETY,leaf,Fire alarm sprinkler suppression or related detection systems,Fire sprinkler; fire alarm; hood suppression,Lawn irrigation sprinkler
+DECK_PATIO_PORCH,EXTERIOR,leaf,Construction repair or alteration of decks patios or porches,Deck; patio; porch,Interior floor platform
+DRIVEWAY_PAVING,SITEWORK,leaf,Driveway sidewalk paving or hardscape work,Driveway approach; asphalt paving; sidewalk,Roof paving products
+GRADING_SITEWORK,SITEWORK,family,Earthwork excavation grading erosion control or general site preparation,Grading; excavation; site preparation,Interior renovation
+GARAGE_ACCESSORY,BUILDING,leaf,Garage carport shed ADU or other accessory structure,Detached garage; shed; accessory dwelling unit,Principal new building
+STRUCTURAL,BUILDING,family,Structural framing foundation reinforcement or load-bearing work,Foundation repair; structural framing; seismic retrofit,Nonstructural finish work
+POOL_SPA,SITEWORK,leaf,Swimming pool spa hot tub or associated pool equipment,Pool; spa; hot tub,Decorative fountain without recreational pool scope
+ELECTRICAL,ELECTRICAL,family,General electrical wiring circuits service fixtures or equipment work,Electrical permit; wiring; circuits,Narrow solar EV charger or panel upgrade when specifically supported
+SEWER_UTILITY,SITEWORK,leaf,Sewer water utility service main lateral or right-of-way utility connection,Sewer lateral; water service; utility main,Interior plumbing fixtures
+ELECTRICAL_PANEL_UPGRADE,ELECTRICAL,leaf,Replacement upgrade or capacity change of electrical service panel or meter-main,Panel replacement; 100A to 200A service; meter-main upgrade,Reconnect or inspection only with no replacement or capacity change

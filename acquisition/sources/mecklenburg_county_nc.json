@@ -1,0 +1,10 @@
+{
+  "key": "mecklenburg_county_nc_building_permits",
+  "platform": "arcgis",
+  "jurisdiction": "Mecklenburg County, NC",
+  "url": "https://meckgis.mecklenburgcountync.gov/server/rest/services/BuildingPermits/FeatureServer/0",
+  "where": "1=1",
+  "permit_number_field": "permitnum",
+  "description_fields": ["workdesc", "permitdesc", "projdesc"],
+  "record_type_fields": ["permittype", "worktype"]
+}

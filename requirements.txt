@@ -1,0 +1,8 @@
+# Versions used to train and test the released checkpoint.
+numpy==2.5.3
+scikit-learn==1.9.1
+joblib==1.6.0
+duckdb==1.5.5
+pandas
+pyarrow
+sentence-transformers  # taxonomy label embedding only

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "permitkey"
+version = "1.0.0"
+description = "Work-type classification and tract-year aggregation of U.S. building permit records"
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scikit-learn>=1.4", "joblib>=1.3", "duckdb>=1.1"]
+
+[project.scripts]
+permitkey = "permitkey_release.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+permitkey_release = ["categories.json", "generic_label_rule.json"]

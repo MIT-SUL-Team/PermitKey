@@ -1,0 +1,12 @@
+{
+  "categories": 14,
+  "micro_f1": 0.7991746905089409,
+  "micro_f1_ci95": [
+    0.774,
+    0.823
+  ],
+  "macro_f1": 0.7916827679005705,
+  "bootstrap_unit": "permit group, stratified by sample stratum",
+  "bootstrap_draws": 10000,
+  "seed": 20260922
+}

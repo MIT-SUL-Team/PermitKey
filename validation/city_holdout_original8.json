@@ -1,0 +1,182 @@
+{
+ "solar": {
+  "flag": {
+   "precision": 0.912,
+   "recall": 0.762,
+   "f1": 0.83,
+   "support": 49218
+  },
+  "model": {
+   "precision": 0.992,
+   "recall": 0.807,
+   "f1": 0.89,
+   "support": 49218
+  },
+  "ensemble": {
+   "precision": 0.915,
+   "recall": 0.813,
+   "f1": 0.861,
+   "support": 49218
+  }
+ },
+ "ev_charger": {
+  "flag": {
+   "precision": 0.96,
+   "recall": 0.586,
+   "f1": 0.728,
+   "support": 7734
+  },
+  "model": {
+   "precision": 0.796,
+   "recall": 0.631,
+   "f1": 0.704,
+   "support": 7734
+  },
+  "ensemble": {
+   "precision": 0.781,
+   "recall": 0.645,
+   "f1": 0.707,
+   "support": 7734
+  }
+ },
+ "battery": {
+  "flag": {
+   "precision": 0.814,
+   "recall": 0.704,
+   "f1": 0.755,
+   "support": 7948
+  },
+  "model": {
+   "precision": 0.912,
+   "recall": 0.695,
+   "f1": 0.789,
+   "support": 7948
+  },
+  "ensemble": {
+   "precision": 0.779,
+   "recall": 0.736,
+   "f1": 0.757,
+   "support": 7948
+  }
+ },
+ "heat_pump": {
+  "flag": {
+   "precision": 0.944,
+   "recall": 0.356,
+   "f1": 0.517,
+   "support": 12112
+  },
+  "model": {
+   "precision": 0.85,
+   "recall": 0.338,
+   "f1": 0.483,
+   "support": 12112
+  },
+  "ensemble": {
+   "precision": 0.823,
+   "recall": 0.358,
+   "f1": 0.499,
+   "support": 12112
+  }
+ },
+ "panel": {
+  "flag": {
+   "precision": 0.297,
+   "recall": 0.093,
+   "f1": 0.142,
+   "support": 58511
+  },
+  "model": {
+   "precision": 0.682,
+   "recall": 0.265,
+   "f1": 0.382,
+   "support": 58511
+  },
+  "ensemble": {
+   "precision": 0.533,
+   "recall": 0.268,
+   "f1": 0.357,
+   "support": 58511
+  }
+ },
+ "reroof": {
+  "flag": {
+   "precision": 0.923,
+   "recall": 0.353,
+   "f1": 0.51,
+   "support": 201568
+  },
+  "model": {
+   "precision": 0.993,
+   "recall": 0.892,
+   "f1": 0.94,
+   "support": 201568
+  },
+  "ensemble": {
+   "precision": 0.967,
+   "recall": 0.894,
+   "f1": 0.929,
+   "support": 201568
+  }
+ },
+ "pool_spa": {
+  "flag": {
+   "precision": 0.986,
+   "recall": 0.429,
+   "f1": 0.598,
+   "support": 102325
+  },
+  "model": {
+   "precision": 0.994,
+   "recall": 0.957,
+   "f1": 0.975,
+   "support": 102325
+  },
+  "ensemble": {
+   "precision": 0.99,
+   "recall": 0.971,
+   "f1": 0.98,
+   "support": 102325
+  }
+ },
+ "demolition": {
+  "flag": {
+   "precision": 0.931,
+   "recall": 0.674,
+   "f1": 0.782,
+   "support": 220161
+  },
+  "model": {
+   "precision": 0.951,
+   "recall": 0.808,
+   "f1": 0.874,
+   "support": 220161
+  },
+  "ensemble": {
+   "precision": 0.941,
+   "recall": 0.875,
+   "f1": 0.907,
+   "support": 220161
+  }
+ },
+ "MICRO_ALL": {
+  "flag": {
+   "precision": 0.9,
+   "recall": 0.486,
+   "f1": 0.631,
+   "support": 659577
+  },
+  "model": {
+   "precision": 0.962,
+   "recall": 0.796,
+   "f1": 0.871,
+   "support": 659577
+  },
+  "ensemble": {
+   "precision": 0.93,
+   "recall": 0.823,
+   "f1": 0.874,
+   "support": 659577
+  }
+ }
+}

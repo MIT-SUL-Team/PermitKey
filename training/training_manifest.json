@@ -1,0 +1,163 @@
+{
+  "model_sha256": "d053e0d36b10ec302855d9392c59150dba5fccce0bdf8ac529bc8ca5b83b6eff",
+  "sklearn": "1.9.1",
+  "duckdb": "1.5.5",
+  "heads": {
+    "solar": {
+      "trained": true,
+      "positives": 49218,
+      "training_rows": 718245,
+      "feature": "feat"
+    },
+    "ev_charger": {
+      "trained": true,
+      "positives": 7734,
+      "training_rows": 718245,
+      "feature": "feat"
+    },
+    "battery": {
+      "trained": true,
+      "positives": 7948,
+      "training_rows": 718245,
+      "feature": "feat"
+    },
+    "heat_pump": {
+      "trained": true,
+      "positives": 12112,
+      "training_rows": 718245,
+      "feature": "feat"
+    },
+    "panel": {
+      "trained": true,
+      "positives": 58510,
+      "training_rows": 718245,
+      "feature": "feat"
+    },
+    "reroof": {
+      "trained": true,
+      "positives": 201568,
+      "training_rows": 718245,
+      "feature": "feat"
+    },
+    "pool_spa": {
+      "trained": true,
+      "positives": 102324,
+      "training_rows": 718245,
+      "feature": "feat"
+    },
+    "demolition": {
+      "trained": true,
+      "positives": 220158,
+      "training_rows": 718245,
+      "feature": "feat"
+    },
+    "water_heater": {
+      "trained": true,
+      "positives": 22732,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "fire_protection": {
+      "trained": true,
+      "positives": 30367,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "window_door": {
+      "trained": true,
+      "positives": 40731,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "fence_wall": {
+      "trained": true,
+      "positives": 36555,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "deck_patio_porch": {
+      "trained": true,
+      "positives": 20813,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "driveway_paving": {
+      "trained": true,
+      "positives": 23226,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "grading_sitework": {
+      "trained": true,
+      "positives": 28658,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "garage_accessory": {
+      "trained": true,
+      "positives": 44311,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "sewer_utility": {
+      "trained": true,
+      "positives": 27019,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "gas": {
+      "trained": true,
+      "positives": 5699,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "sign": {
+      "trained": true,
+      "positives": 45959,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "structural": {
+      "trained": true,
+      "positives": 18845,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "new_construction": {
+      "trained": true,
+      "positives": 96114,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "alteration_remodel": {
+      "trained": true,
+      "positives": 407263,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "electrical": {
+      "trained": true,
+      "positives": 429799,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "plumbing": {
+      "trained": true,
+      "positives": 279925,
+      "training_rows": 2465218,
+      "feature": "descr"
+    },
+    "mechanical_hvac": {
+      "trained": true,
+      "positives": 298121,
+      "training_rows": 2465218,
+      "feature": "descr"
+    }
+  },
+  "score_semantics": "logistic model score; label = score > 0.5",
+  "training_queries": {
+    "frozen8": "SELECT * FROM 'data/training8/train2.parquet' WHERE (label_solar+flag_solar+label_ev_charger+flag_ev_charger+label_battery+flag_battery+label_heat_pump+flag_heat_pump+label_panel+flag_panel+label_reroof+flag_reroof+label_pool_spa+flag_pool_spa+label_demolition+flag_demolition)>0 UNION ALL BY NAME SELECT * FROM 'data/training8/train2.parquet' WHERE (label_solar+flag_solar+label_ev_charger+flag_ev_charger+label_battery+flag_battery+label_heat_pump+flag_heat_pump+label_panel+flag_panel+label_reroof+flag_reroof+label_pool_spa+flag_pool_spa+label_demolition+flag_demolition)=0 USING SAMPLE 40000 ROWS (reservoir,7)",
+    "added17": "SELECT * FROM 'data/natural25/train25_citysup_v2.parquet'"
+  },
+  "note": "Original eight heads are trained on description + native type/subtype text; the additional seventeen heads on description text (see training/train_model.py)."
+}

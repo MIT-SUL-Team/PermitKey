@@ -1,0 +1,52 @@
+{
+  "version": "generic_label_specialist_abstention_v2",
+  "categories": [
+    "SOLAR_PV",
+    "EV_CHARGER"
+  ],
+  "rule": "A solar PV or EV charger assignment is withheld when every available text field (description, native type, native subtype) is blank or exactly matches one of the generic administrative labels below after lowercasing and trimming. Other categories are unaffected.",
+  "generic_labels": [
+    "",
+    "1 or 2 family dwelling",
+    "add contractor to a permit - building",
+    "bldg-new",
+    "building permit | electrical",
+    "building residential addition",
+    "building/residential/addition/pools",
+    "commercial building permit",
+    "commercial electrical permit",
+    "condo - patio home",
+    "contractor-general-agent",
+    "contractor-general-llc",
+    "deck",
+    "electrical",
+    "electrical - general installation",
+    "electrical general permit",
+    "electrical permit",
+    "electrical permit (r)",
+    "electrical residential permit",
+    "electrical: rewire/repair",
+    "electrical: temp service pole",
+    "general",
+    "general construction",
+    "general electrical - commercial",
+    "general electrical - residential",
+    "misc (tent, foundation, etc)",
+    "mps imported permit - electrical",
+    "not available on this old permit",
+    "plumbing permit",
+    "residential - new construction",
+    "residential addition-alteration single family home",
+    "residential addition/alteration",
+    "residential existing construct",
+    "rewire repair add wiring",
+    "structural permit",
+    "temporary service pole",
+    "zz - off - zoning permit w/building - zoning with building permit"
+  ],
+  "not_treated_as_generic": [
+    "F193",
+    "NEW SYSTEM",
+    "RPV"
+  ]
+}

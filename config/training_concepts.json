@@ -1,0 +1,114 @@
+{
+  "recipe": {
+    "vectorizer": "HashingVectorizer(n_features=2**18, ngram_range=(1,2), alternate_sign=False, norm='l2')",
+    "classifier": "SGDClassifier(loss='log_loss', class_weight='balanced', alpha=1e-6, max_iter=15, tol=1e-3, random_state=0)",
+    "cv_classifier_max_iter": 12,
+    "feature_field": "lower(DESCRIPTION | RECORD_TYPE_ORIGINAL | RECORD_SUBTYPE_ORIGINAL)",
+    "min_train_pos": 20,
+    "min_test_pos": 5
+  },
+  "frozen_8": [
+    {
+      "tech": "solar",
+      "natural25": "SOLAR_PV"
+    },
+    {
+      "tech": "ev_charger",
+      "natural25": "EV_CHARGER"
+    },
+    {
+      "tech": "battery",
+      "natural25": "BATTERY_STORAGE"
+    },
+    {
+      "tech": "heat_pump",
+      "natural25": "HEAT_PUMP"
+    },
+    {
+      "tech": "panel",
+      "natural25": "ELECTRICAL_PANEL_UPGRADE"
+    },
+    {
+      "tech": "reroof",
+      "natural25": "ROOFING"
+    },
+    {
+      "tech": "pool_spa",
+      "natural25": "POOL_SPA"
+    },
+    {
+      "tech": "demolition",
+      "natural25": "DEMOLITION"
+    }
+  ],
+  "new_17": [
+    {
+      "tech": "water_heater",
+      "natural25": "WATER_HEATER"
+    },
+    {
+      "tech": "fire_protection",
+      "natural25": "FIRE_PROTECTION"
+    },
+    {
+      "tech": "window_door",
+      "natural25": "WINDOW_DOOR"
+    },
+    {
+      "tech": "fence_wall",
+      "natural25": "FENCE_WALL"
+    },
+    {
+      "tech": "deck_patio_porch",
+      "natural25": "DECK_PATIO_PORCH"
+    },
+    {
+      "tech": "driveway_paving",
+      "natural25": "DRIVEWAY_PAVING"
+    },
+    {
+      "tech": "grading_sitework",
+      "natural25": "GRADING_SITEWORK"
+    },
+    {
+      "tech": "garage_accessory",
+      "natural25": "GARAGE_ACCESSORY"
+    },
+    {
+      "tech": "sewer_utility",
+      "natural25": "SEWER_UTILITY"
+    },
+    {
+      "tech": "gas",
+      "natural25": "GAS"
+    },
+    {
+      "tech": "sign",
+      "natural25": "SIGN"
+    },
+    {
+      "tech": "structural",
+      "natural25": "STRUCTURAL"
+    },
+    {
+      "tech": "new_construction",
+      "natural25": "NEW_CONSTRUCTION"
+    },
+    {
+      "tech": "alteration_remodel",
+      "natural25": "ALTERATION_REMODEL"
+    },
+    {
+      "tech": "electrical",
+      "natural25": "ELECTRICAL"
+    },
+    {
+      "tech": "plumbing",
+      "natural25": "PLUMBING"
+    },
+    {
+      "tech": "mechanical_hvac",
+      "natural25": "MECHANICAL_HVAC"
+    }
+  ]
+}

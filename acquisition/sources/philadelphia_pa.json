@@ -1,0 +1,11 @@
+{
+  "key": "philadelphia_pa_permits",
+  "platform": "carto",
+  "jurisdiction": "Philadelphia, PA",
+  "url": "https://phl.carto.com/api/v2/sql",
+  "table": "permits",
+  "id_field": "cartodb_id",
+  "permit_number_field": "permitnumber",
+  "description_fields": ["approvedscopeofwork", "permitdescription"],
+  "record_type_fields": ["permittype", "typeofwork"]
+}

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "PermitKey: harmonized work-type classification of U.S. building permit records"
+type: software
+version: 1.0.0
+date-released: 2026-10-16
+license: MIT
+repository-code: "https://github.com/MIT-SUL-Team/PermitKey"
+authors:
+  - family-names: Martinez
+    given-names: Candy
+    affiliation: "Massachusetts Institute of Technology"
+  - family-names: Lewis
+    given-names: Sean Hardesty
+    affiliation: "Massachusetts Institute of Technology"
+  - family-names: Fan
+    given-names: Yichun
+    affiliation: "Duke University"
+  - family-names: Zheng
+    given-names: Siqi
+    affiliation: "Massachusetts Institute of Technology"
+references:
+  - type: dataset
+    title: "A harmonized national work-type classification of U.S. building permit records"
+    doi: 10.7910/DVN/YXCXLQ
+    authors:
+      - family-names: Martinez
+        given-names: Candy
+      - family-names: Lewis
+        given-names: Sean Hardesty
+      - family-names: Fan
+        given-names: Yichun
+      - family-names: Zheng
+        given-names: Siqi

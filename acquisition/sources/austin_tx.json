@@ -1,0 +1,10 @@
+{
+  "key": "austin_tx_issued_construction_permits",
+  "platform": "socrata",
+  "jurisdiction": "Austin, TX",
+  "url": "https://data.austintexas.gov",
+  "dataset": "3syk-w9eu",
+  "permit_number_field": "permit_number",
+  "description_fields": ["description"],
+  "record_type_fields": ["permit_type_desc", "work_class"]
+}
